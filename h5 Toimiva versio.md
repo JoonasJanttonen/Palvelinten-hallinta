@@ -199,6 +199,75 @@ git push origin main
 
 
 
+<img width="912" height="506" alt="Screenshot From 2025-11-23 23-48-38" src="https://github.com/user-attachments/assets/0a187ef0-cfcc-4fd4-8aa1-cfb309fe4f37" />
+
+Nakyma Githubissa!
+
+
+###### 23:49 
+
+c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+
+Avataan README.MD tiedosto, ja kirjoitetaan sinne turhaa.
+
+nano README.md
+
+<img width="688" height="263" alt="Screenshot From 2025-11-23 23-58-44" src="https://github.com/user-attachments/assets/506440e7-0d1d-4270-9e63-9aab9fa7cba8" />
+
+
+<img width="687" height="207" alt="Screenshot From 2025-11-24 00-00-17" src="https://github.com/user-attachments/assets/21beea90-c10e-47a6-8cb0-72c286e488c6" />
+
+Tilanne, ilman commitia.
+
+Tuhotaan muutos, komennolla:
+
+```
+git reset --hard
+```
+
+<img width="687" height="166" alt="Screenshot From 2025-11-24 00-03-01" src="https://github.com/user-attachments/assets/4550ec57-6e9c-4576-b3d5-0c34de2dca01" />
+
+Tiedosto palautettu edelliseen tilaan.
+
+###### 24.11.2025.
+###### 0:04 
+
+
+d) Tukki. Tarkastele ja selitä varastosi lokia. Tarkista, että nimesi ja sähköpostiosoitteesi näkyy haluamallasi tavalla ja korjaa tarvittaessa.
+
+Tarkastan login:
+
+git log
+
+<img width="800" height="259" alt="Screenshot From 2025-11-24 00-09-32" src="https://github.com/user-attachments/assets/475e223a-c98a-4a4d-84a5-e6477ea4a40b" />
+
+Nakymassa on commit-historia:
+
+
+Seuraavaksi katsoin nimella ja sahkopostilal:
+
+<img width="628" height="95" alt="Screenshot From 2025-11-24 00-11-10" src="https://github.com/user-attachments/assets/8b97cf45-7598-4e0b-bee9-1acd3910a774" />
+
+
+Kaikki nayttavat olevan oikein, joten en suorita muutoksia globaalisti tai paikallisesti tahan tiettyyn repoon.
+
+Globaalisti voisin suorittaa taman seuraavanlaisesti:
+
+```
+git config --global user.name "Joonas Janttonen"
+git config --global user.email "bhl862@myy.haaga-helia.fi"
+```
+
+
+Tai tarvittaessa tahan projektiin:
+
+```
+git config user.name "Joonas Janttonen"
+git config user.email "bhl862@myy.haaga-helia.fi"
+```
+
+
+
 
 Lähteet
 ===
