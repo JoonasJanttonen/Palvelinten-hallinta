@@ -167,6 +167,36 @@ cd Uusi-projekti_Snow
 <img width="627" height="203" alt="Screenshot From 2025-11-23 23-38-08" src="https://github.com/user-attachments/assets/a2165b90-29e7-42fd-a713-93b69b0fd24e" />
 
 
+Taman jalkeen muokkasin Nanon tiedostoa:
+
+```
+nano README.md
+```
+
+Lisasin tiedoston sisalle:
+
+```
+# Uusi projekti Snow
+Lisätty testimuutos Dolly‑tehtävää varten.
+```
+
+Tallennetaan muutokset!
+
+```
+git add README.md
+git commit -m "Lisätty Dolly‑testimuutos README:hen"
+```
+
+Lahetetaan muutokset Githubiin:
+
+```
+git push origin main
+```
+
+
+
+<img width="626" height="253" alt="Screenshot From 2025-11-23 23-43-07" src="https://github.com/user-attachments/assets/36a301a4-112e-4f52-9b58-570ac5d9145d" />
+
 
 
 
