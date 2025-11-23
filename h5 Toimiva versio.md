@@ -150,11 +150,19 @@ Lopputulos!
 Tama oli hyvaa harjoitusta oppimisen kannalta - toisojen kautta! Taman laksyn apuna kaytin tunnilla ottamini muistiinpanot.
 
 ###### 22:38
-Tauko! 
-###### 23:00 
+Tauko.
+###### 23:33
 
+b) Dolly. Kloonaa edellisessä kohdassa tehty uusi varasto itsellesi, tee muutoksia omalla koneella, puske ne palvelimelle, ja näytä, että ne ilmestyvät weppiliittymään.
 
+Kloonataan kotihakemistoon:
 
+```
+cd ~
+git clone git@github.com:JoonasJanttonen/Uusi-projekti_Snow.git
+cd Uusi-projekti_Snow
+```
+<img width="629" height="203" alt="Screenshot From 2025-11-23 23-37-03" src="https://github.com/user-attachments/assets/c1c03920-b6ad-4e61-bae2-0a230bd16d9d" />
 
 
 
