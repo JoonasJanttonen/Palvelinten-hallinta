@@ -1,4 +1,4 @@
-<img width="627" height="203" alt="Screenshot From 2025-11-23 23-38-08" src="https://github.com/user-attachments/assets/c659cbeb-e8a9-45a3-8eec-4a247219b638" /><img width="627" height="203" alt="Screenshot From 2025-11-23 23-38-08" src="https://github.com/user-attachments/assets/edf56f62-8590-459b-a55b-709f971e2c5e" />Toimiva versio
+Toimiva versio
 ---
 
 ###### 23.11.2025.
