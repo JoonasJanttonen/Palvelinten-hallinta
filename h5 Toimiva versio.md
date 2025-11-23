@@ -270,6 +270,23 @@ git config user.email "bhl862@myy.haaga-helia.fi"
 ```
 
 
+###### 0:19 
+
+
+e) Suolattu rakki. Aja Salt-tiloja omasta varastostasi. (Salt tiedostot mistä vain hakemistosta "--file-root teronSaltHakemisto". Esimerkiksi 'sudo salt-call --local --file-root srv/salt/ state.apply', huomaa suhteellinen polku.)
+
+En saanut asennettua Saltia koneelle. Yritan ratkaista taman projektiparin kanssa.
+
+f) Vapaaehtoinen: Hae paria projektiin Moodlen keskustelusta. (Parin saa valita, arvon muille parin)
+
+Pari on hankittu Moodlen kautta: Oskari Hakamies.
+
+
+
+
+
+
+
 
 
 Lähteet
