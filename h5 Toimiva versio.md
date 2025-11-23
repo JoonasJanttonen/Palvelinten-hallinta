@@ -105,7 +105,7 @@ Tarkistetaan versio:
 ```
 git --version
 ```
-<img width="240" height="42" alt="Screenshot From 2025-11-23 21-37-27" src="https://github.com/user-attachments/assets/c2d5f432-1075-49e2-bb21-88b12d1be2ec" />
+<img width="240" height="39" alt="Screenshot From 2025-11-23 21-38-42" src="https://github.com/user-attachments/assets/1e6872d3-930a-4d35-a7d7-b0a2068b8eb8" />
 
 
 
