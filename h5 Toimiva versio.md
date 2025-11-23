@@ -212,7 +212,10 @@ Avataan README.MD tiedosto, ja kirjoitetaan sinne turhaa.
 
 nano README.md
 
+
 <img width="688" height="263" alt="Screenshot From 2025-11-23 23-58-44" src="https://github.com/user-attachments/assets/506440e7-0d1d-4270-9e63-9aab9fa7cba8" />
+
+
 
 
 <img width="687" height="207" alt="Screenshot From 2025-11-24 00-00-17" src="https://github.com/user-attachments/assets/21beea90-c10e-47a6-8cb0-72c286e488c6" />
