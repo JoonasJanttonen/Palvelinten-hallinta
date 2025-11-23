@@ -105,6 +105,22 @@ Tarkistetaan versio:
 ```
 git --version
 ```
+
+Luodaan avain:
+
+```
+ssh-keygen
+cd .ssh/
+cat id_25519.pub
+```
+Laitoin julkisen avaimen Githubiin. Repo luominen.
+
+```
+git clone git@github.com:JoonasJanttonen/Uusi-projekti_Snow.git
+cd Uusi-projekti.Snow.git/
+```
+
+
 <img width="240" height="39" alt="Screenshot From 2025-11-23 21-38-42" src="https://github.com/user-attachments/assets/1e6872d3-930a-4d35-a7d7-b0a2068b8eb8" />
 
 <img width="893" height="134" alt="Screenshot From 2025-11-23 21-51-54" src="https://github.com/user-attachments/assets/30cc9889-c0e4-4d33-8379-ddd2b9e2db82" />
@@ -117,7 +133,13 @@ sudo apt update
 sudo apt install micro
 ```
 
-<img width="947" height="432" alt="Screenshot From 2025-11-23 22-16-34" src="https://github.com/user-attachments/assets/fe33283e-2222-4b59-b971-ff266d3e4ca7" />
+Taman jalkeen lisasin ohjeiden mukaisesti snow kuvaukseksi, ja jonka jalkeen ajoin seuraavat komennot:
+
+```
+
+
+
+<img width="920" height="523" alt="Screenshot From 2025-11-23 22-26-44" src="https://github.com/user-attachments/assets/56144e5d-0fe1-4ab6-9e62-8c97870059df" />
 
 
 Lähteet
