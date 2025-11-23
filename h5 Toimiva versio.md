@@ -94,8 +94,18 @@ sudo salt-call --local -l info --state-output=terse --file-root srv/salt/ state.
 
 a) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "snow". Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, esim README.md ja GNU General Public License 3)
 
+Aloitetaan asentamalla:
 
+```
+sudo apt update
+sudo apt install git
+```
+Tarkistetaan versio:
 
+```
+git --version
+```
+<img width="240" height="42" alt="Screenshot From 2025-11-23 21-37-27" src="https://github.com/user-attachments/assets/c2d5f432-1075-49e2-bb21-88b12d1be2ec" />
 
 
 
