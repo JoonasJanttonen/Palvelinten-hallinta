@@ -107,6 +107,16 @@ git --version
 ```
 <img width="240" height="39" alt="Screenshot From 2025-11-23 21-38-42" src="https://github.com/user-attachments/assets/1e6872d3-930a-4d35-a7d7-b0a2068b8eb8" />
 
+<img width="893" height="134" alt="Screenshot From 2025-11-23 21-51-54" src="https://github.com/user-attachments/assets/30cc9889-c0e4-4d33-8379-ddd2b9e2db82" />
+
+
+Tassa vaiheessa piti asentaa micro koneelle, jotta voin kirjoittaa README.md
+
+```
+sudo apt update
+sudo apt install micro
+```
+
 
 
 Lähteet
