@@ -279,12 +279,18 @@ En saanut asennettua Saltia koneelle. Yritan ratkaista taman projektiparin kanss
 
 f) Vapaaehtoinen: Hae paria projektiin Moodlen keskustelusta. (Parin saa valita, arvon muille parin)
 
-Pari on hankittu Moodlen kautta: Oskari Hakamies.
+Projektipari on hankittu Moodlen kautta: Oskari Hakamies.
 
 
 
+###### 1:15 
 
 
+g) Vapaaehtoinen: Se toinen järjestelmä: kokeile Gittiä eri käyttöjärjestelmällä kuin sillä, millä teit muut harjoitukset. Selitä niin, että kyseistä järjestelmää osaamatonkin onnistuu. Mahdollisuuksia on runsaasti: Debian, Fedora, Windows, OSX...
+
+
+
+<img width="899" height="179" alt="Screenshot From 2025-11-24 01-46-56" src="https://github.com/user-attachments/assets/bb44e98c-fb17-4be5-b030-5589a8884ed9" />
 
 
 
