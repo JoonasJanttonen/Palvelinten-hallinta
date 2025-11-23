@@ -136,11 +136,16 @@ sudo apt install micro
 Taman jalkeen lisasin ohjeiden mukaisesti snow kuvaukseksi, ja jonka jalkeen ajoin seuraavat komennot:
 
 ```
-
-
+git add .
+git commit
+git pull
+git push
+git log --patch
+```
 
 <img width="920" height="523" alt="Screenshot From 2025-11-23 22-26-44" src="https://github.com/user-attachments/assets/56144e5d-0fe1-4ab6-9e62-8c97870059df" />
 
+Lopputulos! 
 
 Lähteet
 ===
