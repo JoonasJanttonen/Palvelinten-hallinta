@@ -147,6 +147,18 @@ git log --patch
 
 Lopputulos! 
 
+Tama oli hyvaa harjoitusta oppimisen kannalta - toisojen kautta! Taman laksyn apuna kaytin tunnilla ottamini muistiinpanot.
+
+###### 22:38
+
+
+
+
+
+
+
+
+
 Lähteet
 ===
 
