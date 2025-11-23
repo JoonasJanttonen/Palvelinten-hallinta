@@ -65,14 +65,18 @@ Gitin käyttö on lähinnä 'git add . && git commit; git pull && git push'. Sel
 Git add .  Tarkoittaa, etta kaikki nykyisen hakemiston (ja alihakemistojen) muutetut ja uudet tiedostot staging areaan eli indeksiin. Piste (.) lopussa tarkoittaa nykyista hakemistoa. Lahde: (Git add)
 
 
+
 Git commitilla tarkoitus on luoda uusi commit, joka tallentaa snapshotin kaista tiedostoista. Tama (commit) sisaltaa tietdostojen, kuten metatiedot (tekia, aikaleima, viesti ja parent commit). Tama on tarkeaa, koska Commitit muodostavat projektin historian, johon voi halutessaan palata. Lahde: (Git Commit)
+
 
 
 Git pull on hakee etärepon (esim. GitHub) uusimmat muutokset ja yhdistää nama. Toimii kahdessa vaiheessa: git fetch – lataa uudet commitit etäreposta.
 git merge (tai rebase) – yhdistää ne omaan branchiin. Tama on vitaalia, koska se varmistaa, että oma branch on ajan tasalla ennen pushia. Lahde: (Git Pull)
 
 
+
 Varaston terokarvinen/suolax/ historia, eli loki ja muutokset. Kätevimmin komentokehotteesta 'git clone https://github.com/terokarvinen/suolax.git; cd suolax/; git log --patch --color|less -R'. Wepistäkin saattaa onnistua kliksuttelemalla "Commits".
+
 
 ```
 all:
@@ -80,12 +84,18 @@ all:
 sudo salt-call --local -l info --state-output=terse --file-root srv/salt/ state.apply
 ```
 
+
 - Salt‑tilat sovelletaan paikallisesti root‑oikeuksilla, käyttäen srv/salt/ hakemistoa tilatiedostojen lähteenä, ja tulostus on tiivis info‑tasolla.
 - Makefile‑kohde on tapa automatisoida koneen konfigurointi Saltilla ilman master‑palvelinta.
 
+
 ###### 21:10 
 
+
 a) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "snow". Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, esim README.md ja GNU General Public License 3)
+
+
+
 
 
 
