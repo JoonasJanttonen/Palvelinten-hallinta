@@ -295,6 +295,10 @@ g) Vapaaehtoinen: Se toinen järjestelmä: kokeile Gittiä eri käyttöjärjeste
 
 
 
+
+Nakyma  Gihubissa!
+
+
 Lähteet
 ===
 
