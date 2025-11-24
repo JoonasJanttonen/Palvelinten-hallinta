@@ -293,10 +293,50 @@ g) Vapaaehtoinen: Se toinen järjestelmä: kokeile Gittiä eri käyttöjärjeste
 <img width="899" height="179" alt="Screenshot From 2025-11-24 01-46-56" src="https://github.com/user-attachments/assets/bb44e98c-fb17-4be5-b030-5589a8884ed9" />
 
 
+###### 2:07 
 
-
+<img width="827" height="182" alt="Screenshot From 2025-11-24 02-31-20" src="https://github.com/user-attachments/assets/ea64a8f5-1ff8-4904-8cd6-bf10d35f88cc" />
 
 Nakyma  Gihubissa!
+
+
+loin uuden repon Githubiin. Alkuun sisalllytin tiedoston tahan, mutta poistin sen. Avain oli jo olemassa Githubissa, joten kloonaaminen onnistui.
+
+
+git clone git@github.com:JoonasJanttonen/yhteisty--repo.git
+cd yhteisty--repo
+
+
+Suoritan paakayttajan muutoksen:
+
+echo "Tämä on pääkäyttäjän muutos" > paakayttaja.txt
+git add paakayttaja.txt
+git commit -m "Lisätty pääkäyttäjän tiedosto"
+git push origin main
+
+
+Taman jalkeen alter egon:
+
+echo "Tämä on alter egon muutos" > alterego.txt
+git add alterego.txt
+git commit -m "Lisätty alter egon tiedosto"
+git push origin main
+
+
+Paakayttajan kavin hakemassa alter egon muutokset:
+
+git pull origin main
+git log --oneline
+
+
+
+<img width="751" height="112" alt="Screenshot From 2025-11-24 02-38-42" src="https://github.com/user-attachments/assets/79592cb2-0ebf-4791-af95-0c4d75aed057" />
+
+###### 2:39 
+Raportin viimesitelya
+###### 
+
+
 
 
 Lähteet
