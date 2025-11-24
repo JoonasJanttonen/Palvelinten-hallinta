@@ -21,7 +21,7 @@ Debian 13 (trixie)
 
 ---
 
-Virtuaalikone ei kaynnistynyt, joten minun piti luoda kaikki alusta. Kun lahdin poistamaan turhia tiedostoja koneelta, huomasin, etta edellinen Oracle oli kayttanyt yli 18 gt edesta tilaa. Poistin kaikki nama, ja latasin kaikki uudestaan seka tein tarvittavat asennukset ja paivitykset.
+Virtuaalikone ei käynnistynyt, joten minun piti luoda uusi virtuaalikone. Kun lähdin poistamaan turhia tiedostoja koneelta, huomasin, etta edellinen Oracle oli kayttanyt yli 18 gt edesta tilaa. Poistin kaikki nämä, ja latasin debianin koneelle. Samalla varmistin päivitykset sekä asennukset.
 
 
 Aloitan syöttämällä tutut komennot, kuten: 
@@ -62,16 +62,16 @@ Chacon and Straub 2014: Pro Git, 2ed: 1.3 Getting Started - What is Git?
 Gitin käyttö on lähinnä 'git add . && git commit; git pull && git push'. Selitä tuon komennon jokainen osa. Käytä apuna itse valitsemiasi lähteitä ja viittaa niihin.
 
 
-Git add .  Tarkoittaa, etta kaikki nykyisen hakemiston (ja alihakemistojen) muutetut ja uudet tiedostot staging areaan eli indeksiin. Piste (.) lopussa tarkoittaa nykyista hakemistoa. Lahde: (Git add)
+Git add .  Tarkoittaa, etta kaikki nykyisen hakemiston (ja alihakemistojen) muutetut ja uudet tiedostot staging areaan eli indeksiin. Piste (.) lopussa tarkoittaa nykyista hakemistoa. Lähde: (https://github.com/git-guides/git-add) 
 
 
 
-Git commitilla tarkoitus on luoda uusi commit, joka tallentaa snapshotin kaista tiedostoista. Tama (commit) sisaltaa tietdostojen, kuten metatiedot (tekia, aikaleima, viesti ja parent commit). Tama on tarkeaa, koska Commitit muodostavat projektin historian, johon voi halutessaan palata. Lahde: (Git Commit)
+Git commitilla tarkoitus on luoda uusi commit, joka tallentaa snapshotin jokaisesta tiedostosta. Tämä (commit) sisältää tietdostojen metatiedot, kuten (tekijä, aikaleima, viesti ja parent commit). TÄmä on tärkeää, koska Commitit muodostavat projektin-historian, johon voi halutessaan palata. Lähde: (https://github.com/git-guides/git-commit)
 
 
 
 Git pull on hakee etärepon (esim. GitHub) uusimmat muutokset ja yhdistää nama. Toimii kahdessa vaiheessa: git fetch – lataa uudet commitit etäreposta.
-git merge (tai rebase) – yhdistää ne omaan branchiin. Tama on vitaalia, koska se varmistaa, että oma branch on ajan tasalla ennen pushia. Lahde: (Git Pull)
+git merge (tai rebase) – yhdistää ne omaan branchiin. Tama on vitaalia, koska se varmistaa, että oma branch on ajan tasalla ennen pushia. Lähde: (https://github.com/git-guides/git-pull)
 
 
 
@@ -126,14 +126,14 @@ cd Uusi-projekti.Snow.git/
 <img width="893" height="134" alt="Screenshot From 2025-11-23 21-51-54" src="https://github.com/user-attachments/assets/30cc9889-c0e4-4d33-8379-ddd2b9e2db82" />
 
 
-Tassa vaiheessa piti asentaa micro koneelle, jotta voin kirjoittaa README.md ja LICENSE.md
+Tässä vaiheessa piti asentaa micro, jotta pystyin suorittamaan/kirjoittamaan: README.md ja LICENSE.md
 
 ```
 sudo apt update
 sudo apt install micro
 ```
 
-Taman jalkeen lisasin ohjeiden mukaisesti snow kuvaukseksi, ja jonka jalkeen ajoin seuraavat komennot:
+Tämän jälkeen lisäsin ohjeiden mukaisesti ´snow´ kuvaukseksi, ja jonka jälkeen ajoin seuraavat komennot:
 
 ```
 git add .
@@ -147,7 +147,7 @@ git log --patch
 
 Lopputulos! 
 
-Tama oli hyvaa harjoitusta oppimisen kannalta - toisojen kautta! Taman laksyn apuna kaytin tunnilla ottamini muistiinpanot.
+Tämä oli hyvää harjoitusta oppimisen kannalta. Tämän läksyn suorittamisessa auttoi muistiinpanot, joita olin kirjannut tunnilla, kuten kuvankaappaukset.
 
 ###### 22:38
 Tauko.
@@ -167,13 +167,13 @@ cd Uusi-projekti_Snow
 <img width="627" height="203" alt="Screenshot From 2025-11-23 23-38-08" src="https://github.com/user-attachments/assets/a2165b90-29e7-42fd-a713-93b69b0fd24e" />
 
 
-Taman jalkeen muokkasin Nanon tiedostoa:
+Tämän jälkeen muokkasin nano -tiedostoa:
 
 ```
 nano README.md
 ```
 
-Lisasin tiedoston sisalle:
+Lisäsin tiedoston sisälle:
 
 ```
 # Uusi projekti Snow
@@ -187,7 +187,7 @@ git add README.md
 git commit -m "Lisätty Dolly‑testimuutos README:hen"
 ```
 
-Lahetetaan muutokset Githubiin:
+Lähetetään muutokset Githubiin:
 
 ```
 git push origin main
@@ -201,7 +201,7 @@ git push origin main
 
 <img width="912" height="506" alt="Screenshot From 2025-11-23 23-48-38" src="https://github.com/user-attachments/assets/0a187ef0-cfcc-4fd4-8aa1-cfb309fe4f37" />
 
-Nakyma Githubissa!
+Näkymä Githubissa!
 
 
 ###### 23:49 
@@ -244,17 +244,17 @@ git log
 
 <img width="800" height="259" alt="Screenshot From 2025-11-24 00-09-32" src="https://github.com/user-attachments/assets/475e223a-c98a-4a4d-84a5-e6477ea4a40b" />
 
-Nakymassa on commit-historia:
+Näkymassä on commit-historia:
 
 
-Seuraavaksi katsoin nimella ja sahkopostilal:
+Seuraavaksi katsoin nimellä että sähköpostilla:
 
 <img width="628" height="95" alt="Screenshot From 2025-11-24 00-11-10" src="https://github.com/user-attachments/assets/8b97cf45-7598-4e0b-bee9-1acd3910a774" />
 
 
-Kaikki nayttavat olevan oikein, joten en suorita muutoksia globaalisti tai paikallisesti tahan tiettyyn repoon.
+Kaikki näyttävät olevan oikein, joten en suorita muutoksia globaalisti tai paikallisesti tähän repoon
 
-Globaalisti voisin suorittaa taman seuraavanlaisesti:
+Globaalisti voisin suorittaa tämän seuraavanlaisesti:
 
 ```
 git config --global user.name "Joonas Janttonen"
@@ -262,7 +262,7 @@ git config --global user.email "bhl862@myy.haaga-helia.fi"
 ```
 
 
-Tai tarvittaessa tahan projektiin:
+Tai tarvittaessa tähän projektiin:
 
 ```
 git config user.name "Joonas Janttonen"
@@ -275,11 +275,11 @@ git config user.email "bhl862@myy.haaga-helia.fi"
 
 e) Suolattu rakki. Aja Salt-tiloja omasta varastostasi. (Salt tiedostot mistä vain hakemistosta "--file-root teronSaltHakemisto". Esimerkiksi 'sudo salt-call --local --file-root srv/salt/ state.apply', huomaa suhteellinen polku.)
 
-En saanut asennettua Saltia koneelle. Yritan ratkaista taman projektiparin kanssa.
+En saanut asennettua Saltia koneelle. Yritän ratkaista tamän projektiparin kanssa.
 
 f) Vapaaehtoinen: Hae paria projektiin Moodlen keskustelusta. (Parin saa valita, arvon muille parin)
 
-Projektipari on hankittu Moodlen kautta: Oskari Hakamies.
+Projektipari on hankittu Moodlen kautta: Oskari Häkämies.
 
 
 
@@ -297,44 +297,47 @@ g) Vapaaehtoinen: Se toinen järjestelmä: kokeile Gittiä eri käyttöjärjeste
 
 <img width="827" height="182" alt="Screenshot From 2025-11-24 02-31-20" src="https://github.com/user-attachments/assets/ea64a8f5-1ff8-4904-8cd6-bf10d35f88cc" />
 
-Nakyma  Gihubissa!
+Tältä näyttä GitHubissa!
 
 
-loin uuden repon Githubiin. Alkuun sisalllytin tiedoston tahan, mutta poistin sen. Avain oli jo olemassa Githubissa, joten kloonaaminen onnistui.
+loin uuden repon Githubiin. Alkuun sisällytin tiedoston tähän, mutta poistin sen. Avain oli jo olemassa Githubissa, joten kloonaaminen onnistui kätevästi.
 
-
+```
 git clone git@github.com:JoonasJanttonen/yhteisty--repo.git
 cd yhteisty--repo
+```
 
+Suoritan pääkayttäjan muutoksen:
 
-Suoritan paakayttajan muutoksen:
-
+```
 echo "Tämä on pääkäyttäjän muutos" > paakayttaja.txt
 git add paakayttaja.txt
 git commit -m "Lisätty pääkäyttäjän tiedosto"
 git push origin main
+```
 
+Taämän jälkeen alter egon:
 
-Taman jalkeen alter egon:
-
+```
 echo "Tämä on alter egon muutos" > alterego.txt
 git add alterego.txt
 git commit -m "Lisätty alter egon tiedosto"
 git push origin main
+```
 
+Pääkayttäjän kävin hakemassa alter egon muutokset:
 
-Paakayttajan kavin hakemassa alter egon muutokset:
-
+```
 git pull origin main
 git log --oneline
-
+```
 
 
 <img width="751" height="112" alt="Screenshot From 2025-11-24 02-38-42" src="https://github.com/user-attachments/assets/79592cb2-0ebf-4791-af95-0c4d75aed057" />
 
 ###### 2:39 
-Raportin viimesitelya
-###### 
+Raportin viimeistelyä
+###### 3:14
 
 
 
