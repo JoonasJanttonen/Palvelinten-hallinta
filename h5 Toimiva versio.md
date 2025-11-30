@@ -313,6 +313,7 @@ cd yhteisty--repo
 ```
 h) Vapaaehtoinen: yhteistyötä: anna kaverillesi (tai alter egollesi) oikeus kirjoittaa varastoosi (commit access). Tehkää molemmat muutoksia varastoon gitillä.
 Suoritan pääkayttäjan muutoksen:
+(Päivitetty 30.11.2025)
 
 ```
 echo "Tämä on pääkäyttäjän muutos" > paakayttaja.txt
