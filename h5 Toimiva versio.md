@@ -21,8 +21,8 @@ Debian 13 (trixie)
 
 ---
 
-Virtuaalikone ei käynnistynyt, joten minun piti luoda uusi virtuaalikone. Kun lähdin poistamaan turhia tiedostoja koneelta, huomasin, etta edellinen Oracle oli kayttanyt yli 18 gt edesta tilaa. Poistin kaikki nämä, ja latasin debianin koneelle. Samalla varmistin päivitykset sekä asennukset.
-
+Minun piti luoda uusi virtuaalikone, koska koneen C-asema oli täynnä. Poistin vanhat tiedostot, jotta koneeseen vapautuisi tilaa. Tämän yhteydessä huomasin, että virtuaalikone oli vienyt 18 gt tilaa. Lopulta poistin siis kaikki nämä, ja asensin uuden debianin (13). Tämän jälkeen varmistin, että koneessa on kaikki päivitykset ja asennukset ajantasalla.
+(Korjattu: 30.11.2025)
 
 Aloitan syöttämällä tutut komennot, kuten: 
 
@@ -59,20 +59,21 @@ Chacon and Straub 2014: Pro Git, 2ed: 1.3 Getting Started - What is Git?
 - Git lisää dataa, ei poista: commitit tallentuvat pysyvästi, ja niiden menettäminen on vaikeaa, mikä tekee kokeilusta turvallista.
 
 
-Gitin käyttö on lähinnä 'git add . && git commit; git pull && git push'. Selitä tuon komennon jokainen osa. Käytä apuna itse valitsemiasi lähteitä ja viittaa niihin.
+Gitin käyttö on lähinnä 'git add . && git commit; git pull && git push'. Selitä tuon komennon jokainen osa. Käytä apuna lähteitä ja viittaan nämä. 
+(Korjattu: 30.11.2025)
 
 
-Git add .  Tarkoittaa, etta kaikki nykyisen hakemiston (ja alihakemistojen) muutetut ja uudet tiedostot staging areaan eli indeksiin. Piste (.) lopussa tarkoittaa nykyista hakemistoa. Lähde: (https://github.com/git-guides/git-add) 
+Git add .  Tarkoittaa, että kaikki nykyisen hakemiston (ja alihakemistojen) muutetut ja uudet tiedostot staging areaan eli indeksiin. Piste (.) lopussa tarkoittaa nykyistä hakemistoa. Lähde: (https://github.com/git-guides/git-add) 
+(Korjattu: 30.11.2025)
 
 
+Git commitilla tarkoitus on luoda uusi commit, joka tallentaa snapshotin jokaisesta tiedostosta. Tämä (commit) sisältää tietdostojen metatiedot, kuten (tekijä(t), aikaleima, viesti ja parent commit). Tämä on tärkeää toimenpide, koska Commitit muodostavat projektin-historian, johon voi halutessaan palata. Lähde: (https://github.com/git-guides/git-commit)
+(Korjattu: 30.11.2025)
 
-Git commitilla tarkoitus on luoda uusi commit, joka tallentaa snapshotin jokaisesta tiedostosta. Tämä (commit) sisältää tietdostojen metatiedot, kuten (tekijä, aikaleima, viesti ja parent commit). TÄmä on tärkeää, koska Commitit muodostavat projektin-historian, johon voi halutessaan palata. Lähde: (https://github.com/git-guides/git-commit)
 
-
-
-Git pull on hakee etärepon (esim. GitHub) uusimmat muutokset ja yhdistää nama. Toimii kahdessa vaiheessa: git fetch – lataa uudet commitit etäreposta.
-git merge (tai rebase) – yhdistää ne omaan branchiin. Tama on vitaalia, koska se varmistaa, että oma branch on ajan tasalla ennen pushia. Lähde: (https://github.com/git-guides/git-pull)
-
+Git pull on hakee etärepon (esim. GitHub) uusimmat muutokset ja yhdistää nämä. Toimii kahdessa vaiheessa: git fetch – lataa uudet commitit etäreposta.
+git merge (tai rebase) – yhdistää ne omaan branchiin. Tämä on tärkeä toimenpide, koska se varmistaa, että oma branch on ajan tasalla ennen pushia. Lähde: (https://github.com/git-guides/git-pull)
+(Korjattu: 30.11.2025)
 
 
 Varaston terokarvinen/suolax/ historia, eli loki ja muutokset. Kätevimmin komentokehotteesta 'git clone https://github.com/terokarvinen/suolax.git; cd suolax/; git log --patch --color|less -R'. Wepistäkin saattaa onnistua kliksuttelemalla "Commits".
@@ -208,7 +209,8 @@ Näkymä Githubissa!
 
 c) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
-Avataan README.MD tiedosto, ja kirjoitetaan sinne turhaa.
+Avataan README.MD tiedosto, ja kirjoitetaan sinne tekstiä. Ei välttämättä tärkeää.
+(Korjattu: 30.11.2025)
 
 nano README.md
 
@@ -275,7 +277,8 @@ git config user.email "bhl862@myy.haaga-helia.fi"
 
 e) Suolattu rakki. Aja Salt-tiloja omasta varastostasi. (Salt tiedostot mistä vain hakemistosta "--file-root teronSaltHakemisto". Esimerkiksi 'sudo salt-call --local --file-root srv/salt/ state.apply', huomaa suhteellinen polku.)
 
-En saanut asennettua Saltia koneelle. Yritän ratkaista tamän projektiparin kanssa.
+En saanut asennettua Saltia koneelle. Pyydän konsultointia tähän ongelmaan kurssikaverilta.
+(Korjattu: 30.11.2025)
 
 f) Vapaaehtoinen: Hae paria projektiin Moodlen keskustelusta. (Parin saa valita, arvon muille parin)
 
@@ -300,7 +303,9 @@ g) Vapaaehtoinen: Se toinen järjestelmä: kokeile Gittiä eri käyttöjärjeste
 Tältä näyttä GitHubissa!
 
 
-loin uuden repon Githubiin. Alkuun sisällytin tiedoston tähän, mutta poistin sen. Avain oli jo olemassa Githubissa, joten kloonaaminen onnistui kätevästi.
+Uusi repo Githubiin. Alkuun sisällytin tiedoston tähän, mutta poistin sen. Avain oli jo olemassa Githubissa, joten kloonaaminen onnistui kätevästi.
+(Korjattu: 30.11.2025)
+
 
 ```
 git clone git@github.com:JoonasJanttonen/yhteisty--repo.git
@@ -316,7 +321,9 @@ git commit -m "Lisätty pääkäyttäjän tiedosto"
 git push origin main
 ```
 
-Taämän jälkeen alter egon:
+Tämän jälkeen alter egon:
+(Kurssi: 30.11.2025)
+
 
 ```
 echo "Tämä on alter egon muutos" > alterego.txt
