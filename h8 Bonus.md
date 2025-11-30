@@ -36,7 +36,7 @@ Tehtävä g)
 https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md#L292
 
 Tehtävä h)
-https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md#L307
+https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md#L314
 
 
 b) Ristiinarvioinnin jälkeen olennaisesti parannetut tehtävät
