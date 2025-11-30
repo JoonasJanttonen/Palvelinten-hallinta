@@ -31,7 +31,8 @@ sudo apt-get -y install ufw \
 sudo ufw enable 
 ```
 
-Lopuksi aikavyöhykkeen asennus, jotta ohjelmat toimivat oikein: 
+Lopuksi aikavyöhykkeen asennus, jotta ohjelmat toimivat: 
+(Korjattu: 30.11.2025)
 
 ```
 sudo timedatectl set-timezone Europe/Helsinki
@@ -56,6 +57,7 @@ Artikkelissa on esimerkkinä jonkun toisen Linux-version sshd_config tiedosto. J
 
 
 Luodaan SSH_tila:
+
 ```
 cat /srv/salt/sshd.sls
 openssh-server:
@@ -118,7 +120,7 @@ Kolmas vaihde, jossa varmistetaan, että asennus on valmiina:
 
 <img width="537" height="290" alt="Screenshot From 2025-11-13 15-55-58" src="https://github.com/user-attachments/assets/d4da2768-7f99-4d67-8725-61a9a1fa0c5b" />
 
-Varmistan, etta portti 22 on auki.
+Varmistan, että portti 22 on auki. (Korjattu: 30.11.2025)
 
 <img width="821" height="242" alt="Screenshot From 2025-11-13 17-29-52" src="https://github.com/user-attachments/assets/814659df-9153-476c-b6bb-6f7f6cb20d10" />
 
@@ -126,13 +128,15 @@ Tilanne.
 
 <img width="829" height="403" alt="Screenshot From 2025-11-13 17-40-12" src="https://github.com/user-attachments/assets/0f1ecad5-04e2-4262-8d04-aaad8e37fb31" />
 
-SSHd kuuntelee. Oletan, että tehtävä on onnistunut.
+SSHd kuuntelee. Oletan, että tehtävä suoritettu onnistuneesti.
+(Korjattu: 30.11.2025)
 
 ###### 17:48 
 ###### 17:50 
 b) Vapaaehtoinen, haastavahko tässä vaiheessa: Asenna ja konfiguroi Apache ja Name Based Virtual Host. Sen tulee näyttää palvelimen etusivulla weppisivua. Weppisivun tulee olla muokattavissa käyttäjän oikeuksin, ilman sudoa.
 
-Syötin terminaalissa seuraavat käskyt:
+Terminaaliin seuraavat säännöt:
+(Korjattu: 30.11.2025)
 
 ```
 sudo systemctl enable apache2
@@ -165,7 +169,8 @@ sudo tail -f /var/log/apache2/error.log
 
 <img width="975" height="646" alt="Screenshot From 2025-11-13 19-42-41" src="https://github.com/user-attachments/assets/5bbf150f-18c9-4065-aa2f-f951a024f048" />
 
-Näkymä terminaalista.
+Näkymä terminaalissa.
+(Korjattu: 30.11.2025)
 
 <img width="977" height="157" alt="Screenshot From 2025-11-13 19-54-52" src="https://github.com/user-attachments/assets/d6300dd9-91aa-4ca9-af57-a5f923b4d9f6" />
 
@@ -341,7 +346,8 @@ Mikä on PostgreSQL? Yksinkertaisin vastaus kysymykseen on avoimen lähdekoodin 
 
 
 
-Nämä olivat haastavia tehtäviä. Tehtävien tekemisissä saattaa esiintyä virheitä, mutta ainakin yritin.
+Tehtävien työstäminen oli erittäin haastavaa, mutta opetuksellisesti elintärkeä. Tehtävien tekemisissä saattaa esiintyä virheitä, mutta tarkastin nämä. 
+(Korjattu: 30.11.2025)
 
 
 ###### 14.11.2025.
