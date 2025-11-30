@@ -11,6 +11,6 @@ liittyen kurssien aiheisiin. Toki oppiminen jatkuu, ja toistojen kautta asiat op
 
 Vapaaehtoiset tehtävät:
 
-https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h4%20Pkg-file-service.md#:~:text=136
+https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h4%20Pkg-file-service.md#:~:text=#L136
 
 
