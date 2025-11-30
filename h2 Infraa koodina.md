@@ -24,8 +24,16 @@ Aloitan syöttämällä tutut komennot, kuten:
 ```
 sudo apt-get update  sudo apt-get -y dist-upgrade  sudo apt-get -y install ufw sudo ufw enable
 ```  
+(Korjattu: 30.11.2025)
 
-Lopuksi aikavyöhykkeen asentamista, jotta ohjelmat toimivat oikein: ```timedatectl status``` ```timedatectl list-timezones``` ``` sudo timedatectl set-time 2025-10-28 10:30:00 ```
+
+Lopuksi aikavyöhykkeen asentamista, jotta ohjelmat toimivat oikein: 
+
+```
+timedatectl status timedatectl list-timezones sudo timedatectl set-time 2025-10-28 10:30:00
+```
+(Korjattu: 30.11.2025)
+
 ```timedatectl ``` (muokattu 4.11.2025)
 
 ------
@@ -70,7 +78,7 @@ Salt contributors: Salt overview, kohdat:
 
 Introduction:
 
-- Järjestelmänvalvoja tulee määrittää roolit koneiden ryhmille, jotta hallinta on helpompaa.
+- Järjestelmänvalvoja tulee määrittää roolit koneiden ryhmille, jotta hallinta olisi sujuvampaa. (Korjattu: 30.11.2025)
 - ```top.sls``` sijaitsee aina hakemistopuun ylimmässä osassa.
 - Yhdessä koneet muodostavat sovellupinot. Eng. Application stacks, joka tarkoittaa järjestelmää mikä on ikään kuin kerroksittain rakennettu järjestelmä, jossa jokaisella on oma tehtävä.
 
@@ -92,11 +100,19 @@ Jatkan tehtävien työstämistä. Peruskomennot on suoritettu, kuten  ```sudo ap
 
 a) Hei infrakoodi! Kokeile paikallisesti (esim 'sudo salt-call --local') infraa koodina. Kirjota sls-tiedosto, joka tekee esimerkkitiedoston /tmp/ -kansioon.
 
-Debian Trixie ei sisallä Saltia oletuksena, joten tekoälyn avustuksella lisään pakettivaraston, ennen projektia. Suoritan komennon: ```# Luo keyrings-hakemisto
-sudo mkdir -p /etc/apt/keyrings``` 
+Debian Trixie ei sisallä Saltia oletuksena, joten tekoälyn avustuksella lisään pakettivaraston, ennen projektia. Suoritan komennon:
+```
+# Luo keyrings-hakemisto
+sudo mkdir -p /etc/apt/keyrings
+``` 
+(Korjattu: 30.11.2025)
+
 
 Lataan Saltin julkinen avain
-```curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp```
+```
+curl -fsSL https://packages.broadcom.com/artifactory/api/security/keypair/SaltProjectKey/public | sudo tee /etc/apt/keyrings/salt-archive-keyring.pgp
+```
+(Korjattu: 30.11.2025)
 
 Seuraavaksi: ```curl -fsSL https://github.com/saltstack/salt-install-guide/releases/latest/download/salt.sources | sudo tee /etc/apt/sources.list.d/salt.sources``` 
 
@@ -104,17 +120,26 @@ Päivitys ja Saltin asennusta: ```sudo apt install salt-minion``` ```salt-call -
 
 Testaaminen onnistui, eli Salt toimii!
 
-Luodaan tarkistuslista: ```sudo mkdir -p /srv/salt/hellojoonas
-sudo nano /srv/salt/hellojoonas/init.sls```
+Luodaan tarkistuslista: 
 
-Lisätään Nanoon tiedot seuraavanlaisesti: ```create_example_file:
+```sudo mkdir -p /srv/salt/hellojoonas
+sudo nano /srv/salt/hellojoonas/init.sls
+```
+(Korjattu: 30.11.2025)
+
+Lisätään Nanoon tiedot seuraavanlaisesti: 
+```
+create_example_file:
   file.managed:
     - name: /tmp/joonas.txtUpdate
     - contents: |
         Moi Joonas! Tämä tiedosto luotiin Saltilla.
     - mode: '644'
     - user: root
-    - group: root```
+    - group: root
+```
+(Korjattu: 30.11.2025)
+
 
 Ajetaan lopuksi tehtävänannon mukaisesti: ``` sudo salt-call --local state.apply``` 
 
@@ -191,13 +216,16 @@ Lopuksi lataan tree -ohjelman, komennolla:
 
 d) Tee sls-tiedosto, joka käyttää vähintään kahta eri tilafunktiota näistä: package, file, service, user. Tarkista eri ohjelmalla, että lopputulos on oikea. Osoita useammalla ajolla, että sls-tiedostosi on idempotentti.
 
-Suoritan komennot seuraavanlaisesti:
+Suoritetaan komennot seuraavanlaisesti:
 
-```cd /srv/salt```
-```sudo mkdir -p /srv/salt```
-```sudo mkdir -p /srv/salt/hellotila```
-```cd /srv/salt/hellotila```
-```sudo nano init.sls```
+```
+    cd /srv/salt
+    sudo mkdir -p /srv/salt
+    sudo mkdir -p /srv/salt/hellotila
+    cd /srv/salt/hellotila
+    sudo nano init.sls
+```
+(Korjattu: 30.11.2025)
 
 
 <img width="742" height="648" alt="Image" src="https://github.com/user-attachments/assets/64e51b74-7f5b-4ca7-bb89-2f5c28ccba1a" />
