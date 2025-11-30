@@ -41,6 +41,9 @@ https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%2
 
 b) Ristiinarvioinnin jälkeen olennaisesti parannetut tehtävät
 
+Raporttia on siistitty, ja olen merkinnyt nämä kohdat, joko päivitetty tai korjattu.
+
+
 
 
 
