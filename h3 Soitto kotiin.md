@@ -21,9 +21,26 @@ Debian 13 (trixie)
 
 -----
 
-Aloitan syöttämällä tutut komennot, kuten: ```sudo apt-get update ``` ```sudo dpkg --configure -a``` ``` sudo apt-get -y dist-upgrade ``` ``` sudo apt-get -y install ufw ``` ```sudo ufw enable ```  
-Lopuksi aikavyöhykkeen asentamista, jotta ohjelmat toimivat oikein: ```timedatectl status``` ```timedatectl list-timezones``` ``` sudo timedatectl set-timezone Europe/Helsinki``` ```sudo timedatectl set-ntp true```
+Aloitan syöttämällä tutut komennot, kuten: 
+```
+sudo apt-get update
+sudo dpkg --configure -a
+sudo apt-get -y dist-upgrade
+sudo apt-get -y install ufw
+sudo ufw enable
+```  
+(Korjattu: 30.11.2025)
 
+Lopuksi aikavyöhykkeen asentamista, jotta ohjelmat toimivat oikein: 
+
+```
+   timedatectl status
+   timedatectl list-timezones
+   sudo timedatectl
+   set-timezone Europe/Helsinki
+   sudo timedatectl set-ntp true
+```
+(Korjattu: 30.11.2025)
 
 
 -----
@@ -68,7 +85,7 @@ top.sls - What Slave Runs What States:
 - Top.sls määrittää, mitkä tilat (states) ajetaan mille minioneille.
 - Käytetään, jotta ei tarvitse erikseen nimetä state-moduuleja komentorivillä.
 - Määrita: ```sudo salt '*' state.apply```
-- Yaml sisalto esimerkkinä: ```base: '*':- hello``` Muista välilyonni kirjoittaessasi näitä!
+- Yaml sisältö esimerkkinä: ```base: '*':- hello``` Muista sisäistys, kuten välilyönnit kirjoittaessasi näitä! (Korjattu: 30.11.2025)
 
 
 ###### 11:49
@@ -114,7 +131,7 @@ c) Kaksin kaunihimpi. Tee kahden Linux-tietokoneen verkko Vagrantilla. Osoita, e
 
 Lisäsin tämän VSCodeen. Osoitteesta: https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/.
 
-Tämän jälkeen luon uudelleen virtuaalikoneen, jotta niitä on kaksi kappaletta.
+Tämän jälkeen luotiin uusi virtuaalikone. Lopputulos: kaksi virtuaalikonetta luotiin onnistuneesti! (Korjattu: 30.11.2025)
 
 
 
@@ -145,7 +162,7 @@ vagrant destroy
 ###### 10.11.2025.
 ###### 0:07
 
-En päässyt tästä eteenpäin. Katsoin polun, mutta en saanut pingattua näitä kahta konetta. 
+En päässyt tästä eteenpäin. Katsoin polun, mutta en saanut pingattua koneita keskenään. (Korjattu: 30.11.2025) 
 
 Pohdinta:
 
