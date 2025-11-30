@@ -311,7 +311,7 @@ Uusi repo Githubiin. Alkuun sisällytin tiedoston tähän, mutta poistin sen. Av
 git clone git@github.com:JoonasJanttonen/yhteisty--repo.git
 cd yhteisty--repo
 ```
-
+h) Vapaaehtoinen: yhteistyötä: anna kaverillesi (tai alter egollesi) oikeus kirjoittaa varastoosi (commit access). Tehkää molemmat muutoksia varastoon gitillä.
 Suoritan pääkayttäjan muutoksen:
 
 ```
