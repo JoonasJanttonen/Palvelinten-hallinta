@@ -4,7 +4,7 @@ Bonus
 ###### 30.11.2025
 ###### 20:42
 
-Tähän mennessä tehdyt tehtävät ja raportit on nyt korjattu ja tarkastettu. Kurssi on ollut erittäin haastava, mutta oppimisen kannalta tärkeä: Lisäksiolen oppinut paljon uutta 
+Tähän mennessä tehdyt tehtävät ja raportit on nyt korjattu ja tarkastettu. Kurssi on ollut erittäin haastava, mutta oppimisen kannalta tärkeä: Lisäksi olen oppinut paljon uutta 
 liittyen kurssien aiheisiin. Toki oppiminen jatkuu, ja toistojen kautta asiat opitaan perinpohjaisesti.
 
 ---
