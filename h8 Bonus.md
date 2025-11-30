@@ -9,7 +9,8 @@ liittyen kurssien aiheisiin. Toki oppiminen jatkuu, ja toistojen kautta asiat op
 
 ---
 
-Vapaaehtoiset tehtävät:
+a) Vapaaehtoiset tehtävät
+
 
 
 h4 Pkg-file-service
@@ -36,3 +37,8 @@ https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%2
 
 Tehtävä h)
 https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md#L307
+
+
+b) Ristiinarvioinnin jälkeen olennaisesti parannetut tehtävät
+
+
