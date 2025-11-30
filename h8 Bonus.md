@@ -42,3 +42,13 @@ https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%2
 b) Ristiinarvioinnin jälkeen olennaisesti parannetut tehtävät
 
 
+
+
+Lähteet
+===
+
+Github 2025. Joonas Janttonen. Luettavissa: https://github.com/JoonasJanttonen/Palvelinten-hallinta/edit/main/h5%20Toimiva%20versio.md. Luettu: 30.11.2025.
+
+Github 2025. Joonas Janttonen. Luettavissa: https://github.com/JoonasJanttonen/Palvelinten-hallinta/blob/main/h4%20Pkg-file-service.md. Luettu: 30.11.202.5
+
+Tero Karvinen 2025. Palvelinten-hallinta. Läksyt. Luettavissa: https://terokarvinen.com/palvelinten-hallinta/. Luettu: 30.11.2025.
