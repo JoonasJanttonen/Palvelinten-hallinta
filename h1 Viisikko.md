@@ -53,14 +53,14 @@ Asenna Debian 13-Trixie virtuaalikoneeseen. (Poikkeuksellisesti tätä alakohtaa
 
 b) Asenna Salt (salt-minion) Linuxille (uuteen virtuaalikoneeseesi).
 
-Asennus onnistui, mutta tarvittavia testeja ei voitu alussa suorittaa. Ongelma korjaantui lopulta.
+Asennus onnistui ongelmitta. Alkuun testaamisen yhteydessä oli onhgelmia, mutta tämä korjaantui koneen uudelleen käynnistämisen yhteydessä. (Korjattu: 30.11.2025)
 <img width="884" height="367" alt="Image" src="https://github.com/user-attachments/assets/5ce152fb-b2d6-496d-88f5-7ec1a78a2107" />
 
 c) Viisi tärkeintä. Näytä Linuxissa esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
 
 Pkg.installed - Asenna paketti! Ajettiin Komento ```sudo ~/salt-venv/bin/salt-call --local state.single pkg.installed name=vim```
 
-Salt ei asentanut pakettia uudelleen, eikä muuttanut järjestelmää. Ohjelma palautti onnistuneen tuloksen ilman muutoksia
+Salt ei asentanut pakettia uudelleen, eikä muuttanut järjestelmää. Ohjelma palautti onnistuneen tuloksen ilman muutoksia. (Korjattu: 30.11.2025)
 
 <img width="884" height="367" alt="Image" src="https://github.com/user-attachments/assets/a0fa66ef-57b1-41ea-8982-6b6f777aaa67" />
 
@@ -90,8 +90,8 @@ cmd.run! Komento ```sudo ~/salt-venv/bin/salt-call --local state.single cmd.run 
 
 <img width="918" height="629" alt="Image" src="https://github.com/user-attachments/assets/afafffba-1a02-4412-8d3e-74c2b6bbd2b5" />
 
-Salt tarkisti järjestelmän tilan ja havaitsi, että vim-paketti on jo asennettu. Koska tila oli jo halutussa muodossa: ei asentanut pakettia uudelleen, eikämuuttanut järjestelmää.
-Ohjelma palautti onnistuneen tuloksen ilman muutoksia. Tämä on idempotenssin ydin: tila voidaan ajaa monta kertaa, mutta järjestelmä ei muutu enää, kun se on kunnossa.
+Salt tarkisti järjestelmän tilan ja havaitsi, että vim-paketti on jo asennettu. Tila oli saavuttanut halutun tilan, joten uutta pakettia ei asennettu. Lisäksi järjestelmä säilyi ennallaan. (Korjattu: 30.11.2025)
+Ohjelma palautti onnistuneen tuloksen ilman muutoksia. Tämä on idempotenssin ydin: tila voidaan ajaa monta kertaa, mutta järjestelmä ei muutu, kun se on kunnossa. (Korjattu: 30.11.2025)
 
 
 d) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
